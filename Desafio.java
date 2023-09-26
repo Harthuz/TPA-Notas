@@ -19,11 +19,6 @@ public class Desafio {
                 	JOptionPane.showMessageDialog(null, "Digite uma nota válida");
                 	notas[l][c] = Double.parseDouble(JOptionPane.showInputDialog("Digite a nota do " + (c + 1) + "° Bimestre do aluno(a) " + nomes[l]));
                 }
-            }
-        }
-
-        for (l = 0; l < 3; l++) {
-            for (c = 0; c < 3; c++) {
                 num += notas[l][c];
             }
             media[l][0] = num / 3;
